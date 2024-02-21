@@ -1,0 +1,17 @@
+<%- include('partials/head.ejs') %>
+
+    <%- include('partials/cabhome.ejs') %>
+    <div class="tab-content mt-[20%]" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="nav-login" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="nav-register" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+    </div>
+
+    <div class="flex flex-col justify-center items-center m-0-auto">
+        <div class="flex flex-col">
+            <h1>Bienvenido Admin <%= usuario[0].username %></h1>
+        </div>
+    </div>
+
+    <%- include('partials/piepag.ejs') %>
+<%- include('partials/foot.ejs') %>
